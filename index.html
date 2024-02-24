@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333; /* Dark gray for text */
+            background: linear-gradient(to right, #ff8c00, #ff0080); /* Gradient background */
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            opacity: 0; /* Initially hidden for fade-in effect */
+            animation: fadeIn 1s forwards; /* Fade-in animation */
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #3498db; /* Blue color for headings */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+
+       button {
+            display: block;
+            margin: 20px auto; /* Center the button */
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Your existing styles remain unchanged */
+
+        /* New styles for slideshow */
+        .slides {
+            display: none;
+            animation: fade 1.5s ease-in-out;
+        }
+
+        .slide-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .slide-caption {
+            text-align: center;
+            font-size: 24px;
+            color: #fff; /* White color for slide captions */
+            margin-top: 10px;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.4;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div style="text-align: center;"><img
+                src="https://th.bing.com/th/id/OIP.hf01trAxdDvvzzW9r8raZAHaHa?w=194&h=194&c=7&r=0&o=5&pid=1.7"></div>
+        <hr>
+
+        <h1 style="text-align: center;">Remote Rover</h1>
+
+    <!-- Include Font Awesome from CDN -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezjR5eRXVa1ckAVG+Rh6HcZ5SSF5UE8/DdA95u1G9F9oD2FdIKf5oaFzV/C7fo" crossorigin="anonymous">
+
+
+        <button onclick="location.href='https://aninipnai.github.io/nirvana-/'">Control Motor</button>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="main-section">
+
+            <h1 style="text-align: center;">How To Use This website</h1>
+            <p style="font-size: 20px; text-align: center">If you have come here you would have used our given QR
+                code. So now follow the following steps to take a look at our project </p>
+            <h3 style="font-size: 20px; text-align: center">STEP-1</h3>
+            <p style="font-size: 18px; text-align: center">As you open our web page, you can see a button called "Control
+                Motor". Press this button </p>
+            <h3 style="font-size: 20px; text-align: center">STEP-2</h3>
+            <p style="font-size: 18px; text-align: center">As you press the button named as "Control Motor" you will be
+                sent to another web page. Now you can see 4 buttons. As you press the button named as "Control Motor" you
+                will be sent to another web page. Now you can see 4 buttons. </p>
+            <h3 style="font-size: 20px; text-align: center">STEP-3</h3>
+            <p style="font-size: 18px; text-align: center"> Discover enhanced control with four intuitively marked arrow
+                buttons. The top button propels the motor forward, while the bottom one smoothly maneuvers it backward.
+                Navigate effortlessly with the right and left buttons, allowing lateral movement. At the center lies a
+                pivotal button, your command hub—press it to seamlessly initiate or halt the motor's actions. Experience
+                precision and ease as you command your robot's every move with this thoughtfully designed control
+                interface.
+
+            </p>
+            <h3 style="font-size: 20px; text-align: center">STEP-4</h3>
+            <p style="font-size: 18px; text-align: center">Once you've savored the robot's performance, ensure a smooth
+                exit by logging out from the website. Taking this step not only completes your session but also
+                contributes to the website's stability. For optimal performance and to prevent any potential crashes,
+                refrain from reopening the website after logging out. Your conscientious actions help maintain a
+                seamless online experience for all users. Thank you for considering the overall well-being of our
+                digital platform</p>
+
+            <h1 style="text-align: center;">Images Of The Creators</h1>
+            <div class="slides">
+                <img class="slide-img"
+                    src="https://blob.sololearn.com/avatars/010db6e1-c082-4518-9995-b354474a7d2a.jpg" alt="Anirudh Vudata">
+                <div style="color:black;" class="slide-caption">Anirudh Vudata</div>
+            </div>
+            <div class="slides">
+                <img class="slide-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx052k8ed6qGPD_Z_cTmi2u5iJxL7jVqii8w&usqp=CAU"
+                    alt="Nipun Singh">
+                <div style="color:black;" class="slide-caption">Nipun Singh</div>
+            </div>
+            <div class="slides">
+                <img class="slide-img"
+                    src="https://blob.sololearn.com/avatars/8bc917f4-359b-4d70-8bce-19eb2ae43f38.jpg"
+                    alt="Naithik Mandava">
+                <div style="color:black;" class="slide-caption">Naithik Mandava</div>
+            </div>
+
+
+
+   <h1 style="text-align: center;">Anirudh's Certificates</h1>
+<div class="slides">
+    <img class="slide-img" src="f8ff85f3-2eb8-40e0-8fae-ab95df6e9216.jpg" alt="">
+    <div style="color:black;" class="slide-caption">HTML</div>
+</div>
+<div class="slides">
+    <img class="slide-img" src="127309f9-8209-47c2-972a-4b4c619bfcda.jpg" alt="">
+    <div style="color:black;" class="slide-caption">Python Developer</div>
+</div>
+<div class="slides">
+    <img class="slide-img" src="fda85a99-80c4-49db-ae27-059476849bf3.jpg" alt="">
+    <div style="color:black;" class="slide-caption">Java Script </div>
+</div>
+
+
+
+
+
+      
+
+    
+
+            <!-- Additional content for page lengthening -->
+            <h1 style="text-align: center;">Additional Content</h1>
+            <p style="font-size: 18px; text-align: center">Welcome to Team Nirvana's digital haven, where our website
+                embodies the seamless fusion of teamwork, friendship, and focus. Crafted with passion, each line of code
+                and design element reflects the collaborative spirit that defines our project. As you explore, feel the
+                warmth of our friendship and the dedication driving our unwavering focus. This is just the beginning;
+                expect continuous enhancements, the latest tech trends, and a user experience shaped by your invaluable
+                feedback. Join us on this journey to technological Nirvana!</p>
+            <br>
+            <br>
+            <div style="text-align: center;"><a
+                    style="font-size: 21px; background-color: blue; padding-top: 3px; padding-right: 18px; padding-bottom: 3px; padding-left: 18px; color: white;"
+                    href="https://en.wikipedia.org/wiki/API">About API</a>,</div>
+        </div>
+
+        <hr>
+        <p style="font-size: 18px; text-align: center"> Motor driver is used to control motion of a motor and its
+            direction by feeding current accordingly. Output of a motor driver is in digital form so it uses PWM (Pulse
+            Width Modulation) to control speed of a motor. Motor Driver are basically current amplifiers followed by
+            input signals</p>
+        <br>
+        <br>
+        <div style="text-align: center;"><a
+                style="font-size: 21px; background-color: blue; padding-top: 3px; padding-right: 18px; padding-bottom: 3px; padding-left: 18px; color: white;"
+                href="https://en.wikipedia.org/wiki/Motor_drive">Read More</a>,</div>
+
+        <br>
+        <hr>
+        <h3 style="font-size: 30px; text-align: center;">More Info About us</h3>
+        <div style="text-align: center;"><a
+                style="font-size: 21px; background-color: blue; padding-top: 3px; padding-right: 18px; padding-bottom: 3px; padding-left: 18px; color: white;"
+                href="https://www.sololearn.com/en/profile/30331422">About Anirudh.V</a>,</div>
+
+        <br>
+        <div style="text-align: center;"><a
+                style="font-size: 21px; background-color: blue; padding-top: 3px; padding-right: 18px; padding-bottom: 3px; padding-left: 18px; color: white;"
+                href="https://www.sololearn.com/en/profile/31401646">About Naithik.M</a>,</div>
+
+        <br>
+        <div style="text-align: center;"><a
+                style="font-size: 21px; background-color: blue; padding-top: 3px; padding-right: 18px; padding-bottom: 3px; padding-left: 18px; color: white;"
+                href="https://in.linkedin.com/in/nipun-singh-0594132a6">About Nipun Singh</a>,</div>
+
+        <br>
+        <hr>
+
+        <h3 style="font-size: 30px; text-align: center"> Quick Links </h3>
+        <h3 style="font-size: 22px;"> Email 1:</h3>
+        <p style="color: blue; font-size: 19px;">anirudhanvitha@gmail.com</p>
+        <br>
+        <h3 style="font-size: 22px;"> Email 2:</h3>
+        <p style="color: blue; font-size: 19px;">inflax0109@gmail.com</p>
+        <br>
+        <h3 style="font-size: 22px;"> Email 3:</h3>
+        <p style="color: blue; font-size: 19px;">mandavanikhil6@gmail.com</p>
+        <br>
+        <br>
+    </div>
+
+    <hr>
+
+    <script>
+        // JavaScript for slideshow
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("slides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000); // Change slide every 4 seconds
+        }
+
+
+
+
+var slideIndexCertificates = 0;
+    showSlides('certificates');
+
+    function showSlides(type) {
+        var i;
+        var slides;
+
+        if (type === 'creators') {
+            slides = document.getElementsByClassName("slides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexCreators++;
+            if (slideIndexCreators > slides.length) { slideIndexCreators = 1 }
+            slides[slideIndexCreators - 1].style.display = "block";
+            setTimeout(function() { showSlides('creators'); }, 4000); // Change slide every 4 seconds
+        } else if (type === 'certificates') {
+            slides = document.getElementsByClassName("slides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexCertificates++;
+            if (slideIndexCertificates > slides.length) { slideIndexCertificates = 1 }
+            slides[slideIndexCertificates - 1].style.display = "block";
+            setTimeout(function() { showSlides('certificates'); }, 4000); // Change slide every 4 seconds
+        }
+    }
+
+
+
+
+      
+    </script>
+
+</body>
+
+</html>
